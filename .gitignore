@@ -1,0 +1,120 @@
+# General Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+# .gitignore for the `learn-data-analyst` project (project-scoped)
+# This file contains rules only for this repository. Avoid adding
+# global or user-specific ignores here (use global gitignore instead).
+
+# .gitignore khusus untuk proyek belajar `learn-data-analyst`
+# Aturan ini khusus untuk repository ini (project-scoped).
+
+# -----------------------------
+# Python & build
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (lokal dev)
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+
+# Environment / secret files
+.env
+.env.*
+
+# -----------------------------
+# Jupyter / Notebooks
+# -----------------------------
+# Keep the notebooks themselves, but ignore checkpoints and outputs
+.ipynb_checkpoints/
+# Common export/artifacts from notebook conversions
+*.nbconvert.ipynb
+*.nb.html
+
+# Notebook-generated output folders (optional)
+.nboutput/
+
+# -----------------------------
+# Project data and artifacts (learning datasets)
+# -----------------------------
+# Ignore local data files / large datasets used for exercises
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.zip
+*.tar.gz
+
+# Model / binary artifacts
+models/
+*.model
+*.ckpt
+
+# Figures / generated images
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+
+# -----------------------------
+# Packaging / distribution
+# -----------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# -----------------------------
+# Testing / coverage
+# -----------------------------
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# -----------------------------
+# Editor / OS
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and local DBs
+*.log
+*.sqlite3
+*.db
+
+# Temp / swap
+*.tmp
+*.swp
+
+# -----------------------------
+# Notes
+# - Jika suatu file dataset ingin dilacak, hapus/ubah aturan terkait `data/` atau ekstensi yang relevan.
+# - Untuk aturan global (user-specific), gunakan git global ignore (`core.excludesFile`) bukan file ini.
+
